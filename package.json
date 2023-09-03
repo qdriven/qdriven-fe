@@ -1,0 +1,36 @@
+{
+  "name": "qfluent-fe",
+  "version": "1.0.0",
+  "description": "fluentqa mono repo",
+  "private": true,
+  "author": "fluent-qa",
+  "scripts": {
+    "commit":"git cz",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "changeset": "changeset && changeset version",
+    "release": "run-s build releaseOnly",
+    "releaseOnly": "changeset publish"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-turbo": "latest",
+    "turbo": "latest",
+    "typescript": "^5.1.6"
+  },
+  "packageManager": "^pnpm@8.5.0",
+  "dependencies": {
+    "@changesets/cli": "^2.26.2",
+    "cz-git": "^1.7.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git",
+      "useEmoji": true,
+      "czConfig": ".commitlintrc.js"
+    }
+  }
+}

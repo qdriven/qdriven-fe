@@ -1,0 +1,7 @@
+{
+"client": "pnpm --filter @demo/client",
+"svr": "pnpm --filter @demo/server",
+"lib": "pnpm --filter @mihailtd/ui-lib",
+"dev": "pnpm --recursive --parallel --stream run dev",
+"dev:mj":"pnpm --prefix tutorials/master-nextjs dev"
+}
