@@ -12,4 +12,8 @@
 ```sh
 $ pnpm create vite admin --template react-ts
 $ pnpm create vite client --template react-ts
-```
+``` 
+
+## References:
+
+- https://gitee.com/battcn/wemirr-platform-ui.git

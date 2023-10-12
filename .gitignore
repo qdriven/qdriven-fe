@@ -30,3 +30,5 @@ websites/
 *.heapsnapshot
 
 demos/
+apps/
+coverage/
