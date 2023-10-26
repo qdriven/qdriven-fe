@@ -2,6 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/apps/admin-vue-portal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/starters/lanors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/starters/tauri-vue-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/starters/vite-ts-tailwind-starter" vcs="Git" />
   </component>
 </project>
