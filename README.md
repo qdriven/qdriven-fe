@@ -1,11 +1,9 @@
 # README
 
-Applications
 
-- Project Setup
-- Common libs
-- Components
-- Applications
+## Starters
+
+- [vite-ts-starter](https://github.com/fluent-qa/ts-lib-starter) vite ts starter project
 
 
 ## References

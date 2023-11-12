@@ -1,2 +1,1 @@
-
-export { sum,addIt } from "./operation/operations";
+export { sum, addIt } from "./operation/operations";
