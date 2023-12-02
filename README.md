@@ -3,7 +3,7 @@
 
 ## Starters
 
-- [vite-ts-starter](https://github.com/fluent-qa/ts-lib-starter) vite ts starter project
+- [ts-lib-starter](https://github.com/fluent-qa/ts-lib-starter) vite ts starter project
 
 
 ## References
