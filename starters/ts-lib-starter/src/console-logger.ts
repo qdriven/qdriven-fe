@@ -1,13 +1,15 @@
 import chalk from "chalk";
 
-export const info = (message?: any, ...optionalParams: any[]) => {
+type MSG = string | object;
+
+export const info = (message?: MSG, ...optionalParams: MSG[]) => {
   console.log(chalk.blue(`[INFO] ${message}`), ...optionalParams);
 };
 
-export const warn = (message?: any, ...optionalParams: any[]) => {
+export const warn = (message?: MSG, ...optionalParams: MSG[]) => {
   console.log(chalk.yellow(`[WARN] ${message}`), ...optionalParams);
 };
 
-export const error = (message?: any, ...optionalParams: any[]) => {
+export const error = (message?: MSG, ...optionalParams: MSG[]) => {
   console.log(chalk.red(`[ERROR] ${message}`), ...optionalParams);
 };

@@ -1,0 +1,7 @@
+
+FOLDER=$1
+PROJECT_NAME=$2
+
+mkdir -p $FOLDER/$PROJECT_NAME
+cd  $FOLDER/$PROJECT_NAME
+npm init

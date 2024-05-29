@@ -26,3 +26,6 @@ coverage
 *.sw?
 dist/
 coverage/
+build/
+.env
+

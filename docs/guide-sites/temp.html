@@ -1,0 +1,242 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remix Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div class="flex h-screen">
+      <aside class="w-64 border-r border-gray-700 p-5">
+        <div class="text-xl font-semibold mb-10">Menu</div>
+        <ul>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Official <span class="text-gray-600 ml-2">81</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Tutorials <span class="text-gray-600 ml-2">316</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Packages <span class="text-gray-600 ml-2">72</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Events <span class="text-gray-600 ml-2">19</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Showcase <span class="text-gray-600 ml-2">98</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Templates <span class="text-gray-600 ml-2">53</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Examples <span class="text-gray-600 ml-2">94</span></a
+            >
+          </li>
+          <li class="mb-4">
+            <a href="#" class="text-gray-400 hover:text-white"
+              >Opinions <span class="text-gray-600 ml-2">112</span></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main class="flex-1 p-5">
+        <div class="flex justify-between items-center mb-10">
+          <div class="text-2xl font-semibold">Discover</div>
+          <div class="flex space-x-3">
+            <input
+              type="search"
+              placeholder="Search"
+              class="bg-gray-800 text-sm rounded-lg border border-gray-700 p-2"
+            />
+            <button
+              class="bg-gray-800 text-sm rounded-lg border border-gray-700 p-2"
+            >
+              🔍
+            </button>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / andrerpena.dev
+            </div>
+            <div class="font-semibold mb-1">
+              Enhance User Experience with Real-Time File Upload Progress
+              Updates in Remix — Learn how to implement real-time file upload
+              ...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-27</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.youtube.com
+            </div>
+            <div class="font-semibold mb-1">
+              Roadmap Planning #7 — Public roadmap 🚀
+            </div>
+            <div class="text-sm text-gray-600">2023-11-22</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.youtube.com
+            </div>
+            <div class="font-semibold mb-1">
+              Remix Dev Tools (feat. Adam Tulzak) — Adam teaches Brooks how to
+              use Remix Forge...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-17</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.youtube.com
+            </div>
+            <div class="font-semibold mb-1">
+              Server-Sent Events in Remix (feat. Mosh) — Mosh Nitzan teaches
+              Brooks how to implem...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-17</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.youtube.com
+            </div>
+            <div class="font-semibold mb-1">
+              The Remix Philosophy is not just for Remix | Ken Snyder | Confr2
+              JavaScript 2023 — Read the abstract ➡ https://www.confr42.com/...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-17</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / zerotomastery.io
+            </div>
+            <div class="font-semibold mb-1">
+              Learn Remix, Create Better Websites. Get Hired. | Zero To Mastery
+              — Learn Remix from scratch. Take your coding s...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-17</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.jacobparis.com
+            </div>
+            <div class="font-semibold mb-1">
+              Redirecting from a resource route — Use redirect routes to
+              redirect users to the rig...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-17</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.netlify.com
+            </div>
+            <div class="font-semibold mb-1">
+              Remix v1.2 Leverages New Core Netlify — Hosting your Remix sites
+              and applications on ...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-03</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / www.youtube.com
+            </div>
+            <div class="font-semibold mb-1">
+              Remix 💥 Vite: Migrating Remix apps to Vite — Vite announcement
+              blog post 🚀 ➡ https://remix...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-03</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / jalenmutak.hashnode.dev
+            </div>
+            <div class="font-semibold mb-1">
+              Upload Images: Supabase & Remix Integration — Effortlessly upload
+              images using Supabase an...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-01</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">
+              Others / alletmutak.hashnode.dev
+            </div>
+            <div class="font-semibold mb-1">
+              Discover Vite Remix Exploration — Introducing Remix v2.0:
+              lightning-fast Vite L...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-01</div>
+          </div>
+          <!-- ... other news items ... -->
+          <!-- Repeat for each news item -->
+          <div class="border-b border-gray-700 pb-5 mb-5">
+            <div class="text-sm text-gray-400 mb-1">Others / dev.to</div>
+            <div class="font-semibold mb-1">
+              Remix.com serverless — New Instagram serverless renderer com...
+            </div>
+            <div class="text-sm text-gray-600">2023-11-01</div>
+          </div>
+          <!-- ... other news items ... -->
+        </div>
+      </main>
+      <aside class="w-64">
+        <div class="flex justify-center items-center h-full">
+          <div class="text-center">
+            <img
+              src="https://placehold.co/100x100"
+              alt="Remix Guide logo placeholder"
+              class="mb-4"
+            />
+            <div class="text-2xl font-semibold mb-2">Remix Guide</div>
+            <div class="text-gray-400">Sharing everything about Remix</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <footer class="text-center text-gray-600 text-sm py-4">
+      Version e671a18
+    </footer>
+  </body>
+</html>
