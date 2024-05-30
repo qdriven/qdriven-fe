@@ -16,3 +16,4 @@
 - [monorepo](https://monorepo.tools/)
 - [saas-boilerplate](https://github.com/apptension/saas-boilerplate.git)
 - [saas-ui](https://github.com/saas-js/saas-ui.git)
+- [shoetrak-mono-repo](https://github.com/sistemas-shoetrak/shoetrak-monorepo)
